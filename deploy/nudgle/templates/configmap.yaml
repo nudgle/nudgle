@@ -1,0 +1,26 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  creationTimestamp: 2016-02-18T18:52:05Z
+  name: {{ include "nudgle.fullname" . }}
+  namespace: {{ .Release.Namespace }}
+data:
+  indexer.yaml: |
+    node:
+      scheme: {{ .Values.indexer.node.scheme | default "http" }}
+      host: {{ .Values.indexer.node.host }}
+      port: {{ .Values.indexer.node.port }}
+      hub: events-hub
+    monitor:
+      host: nudgle
+      port: 80
+  monitor.yaml: |
+    bot:
+      token: {{ .Values.monitor.discord.token }}
+      channelId: {{ .Values.monitor.discord.channelId }}
+    node:
+      scheme: {{ .Values.monitor.node.scheme | default "http" }}
+      host: {{ .Values.monitor.node.host }}
+      port: {{ .Values.monitor.node.port }}
+    server:
+      workerThreads: {{ .Values.monitor.threads }}

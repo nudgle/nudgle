@@ -1,0 +1,8 @@
+node:
+  scheme: http
+  host: STRAX_NODE_IP_CHANGE_ME
+  port: 17103
+  hub: events-hub
+monitor:
+  host: monitor
+  port: 8090
