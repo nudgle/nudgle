@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/go-resty/resty/v2"
+	"github.com/nudgle/nudgle/pkg/strax/model"
 	"log"
-	"nudgle/pkg/strax/model"
 	"strconv"
 )
 

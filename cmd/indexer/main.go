@@ -1,8 +1,8 @@
 package main
 
 import (
-	"nudgle/internal/config"
-	"nudgle/internal/indexer"
+	"github.com/nudgle/nudgle/internal/config"
+	"github.com/nudgle/nudgle/internal/indexer"
 )
 
 func init() {

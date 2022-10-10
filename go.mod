@@ -1,4 +1,4 @@
-module nudgle
+module github.com/nudgle/nudgle
 
 go 1.19
 

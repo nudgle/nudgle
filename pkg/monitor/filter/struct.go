@@ -2,7 +2,7 @@ package filter
 
 import (
 	"fmt"
-	monitor "nudgle/pkg/monitor/config"
+	monitor "github.com/nudgle/nudgle/pkg/monitor/config"
 	"sync"
 )
 

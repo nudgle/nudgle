@@ -1,10 +1,10 @@
 package main
 
 import (
-	"nudgle/internal/config"
-	"nudgle/internal/monitor/discord"
-	"nudgle/internal/monitor/http"
-	"nudgle/internal/monitor/processor"
+	"github.com/nudgle/nudgle/internal/config"
+	"github.com/nudgle/nudgle/internal/monitor/discord"
+	"github.com/nudgle/nudgle/internal/monitor/http"
+	"github.com/nudgle/nudgle/internal/monitor/processor"
 	"os"
 )
 

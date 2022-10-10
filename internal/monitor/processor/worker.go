@@ -3,11 +3,11 @@
 package processor
 
 import (
+	monitor "github.com/nudgle/nudgle/pkg/monitor/config"
+	"github.com/nudgle/nudgle/pkg/monitor/filter"
+	"github.com/nudgle/nudgle/pkg/signalr"
+	"github.com/nudgle/nudgle/pkg/strax/model"
 	"log"
-	monitor "nudgle/pkg/monitor/config"
-	"nudgle/pkg/monitor/filter"
-	"nudgle/pkg/signalr"
-	"nudgle/pkg/strax/model"
 	"reflect"
 )
 

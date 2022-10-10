@@ -1,9 +1,9 @@
 package processor
 
 import (
+	strax "github.com/nudgle/nudgle/pkg/strax/client"
+	"github.com/nudgle/nudgle/pkg/strax/model"
 	"log"
-	strax "nudgle/pkg/strax/client"
-	"nudgle/pkg/strax/model"
 )
 
 // ProcessWalletGeneralInfo takes in the latest block height

@@ -1,8 +1,8 @@
 package http
 
 import (
+	monitor "github.com/nudgle/nudgle/pkg/monitor/config"
 	"net/http"
-	monitor "nudgle/pkg/monitor/config"
 )
 
 // Start runs an HTTP Server using net/http as a framework

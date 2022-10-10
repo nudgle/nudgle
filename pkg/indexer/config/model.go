@@ -1,6 +1,6 @@
 package config
 
-import "nudgle/pkg/strax/model"
+import "github.com/nudgle/nudgle/pkg/strax/model"
 
 type (
 	IndexerServiceConfiguration struct {

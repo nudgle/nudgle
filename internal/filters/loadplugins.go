@@ -1,6 +1,6 @@
 package filters
 
 import (
-	_ "nudgle/internal/filters/big-transactions"
-	//_ "nudgle/internal/filters/example-filter"
+	_ "github.com/nudgle/nudgle/internal/filters/big-transactions"
+	//_ "github.com/nudgle/nudgle/internal/filters/example-filter"
 )

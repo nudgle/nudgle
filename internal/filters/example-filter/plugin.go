@@ -1,9 +1,9 @@
 package example_filter
 
 import (
+	"github.com/nudgle/nudgle/pkg/monitor/config"
+	"github.com/nudgle/nudgle/pkg/monitor/filter"
 	"log"
-	"nudgle/pkg/monitor/config"
-	"nudgle/pkg/monitor/filter"
 )
 
 func init() {

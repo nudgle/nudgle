@@ -4,10 +4,10 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	config2 "github.com/nudgle/nudgle/internal/config"
+	"github.com/nudgle/nudgle/internal/signalr"
+	strax "github.com/nudgle/nudgle/pkg/strax/client"
 	"log"
-	config2 "nudgle/internal/config"
-	"nudgle/internal/signalr"
-	strax "nudgle/pkg/strax/client"
 )
 
 type MessagePrinterHandler struct {

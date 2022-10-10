@@ -5,8 +5,8 @@ package discord
 import (
 	"fmt"
 	"github.com/bwmarrin/discordgo"
+	monitor "github.com/nudgle/nudgle/pkg/monitor/config"
 	"log"
-	monitor "nudgle/pkg/monitor/config"
 )
 
 type Discord struct {

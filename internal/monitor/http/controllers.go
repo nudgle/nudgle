@@ -2,8 +2,8 @@ package http
 
 import (
 	"encoding/json"
+	"github.com/nudgle/nudgle/pkg/signalr"
 	"net/http"
-	"nudgle/pkg/signalr"
 )
 
 type Controller struct {
